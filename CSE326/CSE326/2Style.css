@@ -1,0 +1,15 @@
+body {font-family: Arial, Helvetica, sans-serif;
+}
+form {border: 100px solid #f1f1f1; 
+    background-image: url(Register.png);background-size:cover}
+button {
+background-color: #04AA6D;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: bold;
+cursor: pointer;
+width: 25%;
+}
+form{
+text-align:center}

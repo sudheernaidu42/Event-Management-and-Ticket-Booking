@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="4Style.css">
+</head>
+<body>
+<header>
+<h1>Delete Event</h1>
+</header>
+<main>
+<form id="DeleteEventForm">
+<label for="eventName">Event Name:</label>
+<input type="text" id="eventName" required><br><br>
+<label for="eventDate">Event Date:</label>
+<input type="date" id="eventDate" required><br><br>
+<label for="Reason For Deleting Event">Reason For Deleting Event:</label>
+<input type="text" id="eventName" required><br><br><br>
+<button type="submit">Delete Event</button>
+</form>
+</main>
+<script>
+function Update Event Details (event) {
+event.preventDefault();
+const eventName =
+document.getElementById ("eventName").value;
+const eventDate = document.getElementById ("eventDate").value;
+const Reason For Deleting Event = document.getElementById ("Reason For Deleting Event") .value;
+const DeletedEventDetails = Event Name: ${eventName} Event Date: ${eventDate} Event Location: $ {eventLocation}
+alert("Event details deleted:\n" + deletedEventDetails)
+document.getElementById ("deletedEventForm").reset();
+ }
+  document.getElementById ("deletedEventForm") .addEventListener("submit", delete EventDetails):
+("eventDate").value;
+const Reason For Deleting Event = document.getElementBy ("Reason For Deleting Event") .value;
+const DeletedEventDetails
+Name: ${eventNam
+Event Location: $
+Event Event Date: ${eventDate
+{eventLocation}
+alert("Event details deleted:\n" + deletedEventDetai ;
+document.getElementById ("deletedEventForm").reset();
+}
+document.getElementById ("deletedEventForm") .addEventListener("submit", deleteEventDetails);
+</script>
+</body>
+</html>
